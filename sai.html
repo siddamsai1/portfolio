@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RAJESH SIDDAM— Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="sai.css" />
+</head>
+<body>
+  <!-- Top navigation -->
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="logo">PORTFOLIO</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+      </ul>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+
+        <div class="hero-left">
+          <p class="hello">Hello, it's me</p>
+          <h1 class="name">SIDDAM RAJESH</h1>
+          <p class="role">And I'm a <span class="accent">Frontend Developer</span></p>
+          <p class="lead">I build interactive, responsive websites using modern HTML, CSS and JavaScript.</p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">See Projects</a>
+            <a class="btn btn-outline" href="#resume">Download Resume</a>
+          </div>
+
+          <div class="socials">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/rajesh-siddam-02234133a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" class="icon"><path d="M4.98 3.5C4.98 4.6 4.06 5.5 2.94 5.5S0.9 4.6 0.9 3.5 1.82 1.5 2.94 1.5 4.98 2.4 4.98 3.5zM0 24h5.88V7.98H0V24zM8.55 7.98v16.02H14.4v-8.83c0-4.73 6.02-5.12 6.02 0v8.83H26V14.1c0-8.32-8.31-8.01-9.6-4.38V8H8.55z"/></svg>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/share/1ChxgoX2qM/" class="social" aria-label="Facebook" title="Facebook">
+              <svg viewBox="0 0 24 24" class="icon"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H7.9v-3h2.6V9.4c0-2.6 1.6-4 4-4 1.2 0 2.5.2 2.5.2v2.7h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 3h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+            </a>
+
+            <!-- Mail -->
+            <a href="mailto:sb5310013@gmail.com" class="social" aria-label="Email" title="Email">
+              <svg viewBox="0 0 24 24" class="icon"><path d="M2 6v12h20V6l-10 6L2 6zM20 4H4a2 2 0 0 0-2 2v.2l10 6 10-6V6a2 2 0 0 0-2-2z"/></svg>
+            </a>
+
+            <!-- X (Twitter) -->
+            <a href="https://x.com/sai_siddam1?t=21JzCmNV4v6uvL8lMSqn7A&s=09" class="social" aria-label="X" title="X">
+              <svg viewBox="0 0 24 24" class="icon"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.23 4.23 0 0 0 1.85-2.33c-.83.5-1.74.86-2.71 1.05A4.2 4.2 0 0 0 12 9.2a11.93 11.93 0 0 1-8.66-4.39 4.2 4.2 0 0 0 1.3 5.6A4.07 4.07 0 0 1 2.8 9.8v.05a4.2 4.2 0 0 0 3.36 4.12c-.5.13-1.02.2-1.56.08a4.2 4.2 0 0 0 3.92 2.9A8.43 8.43 0 0 1 2 18.57a11.89 11.89 0 0 0 6.29 1.84c7.55 0 11.68-6.25 11.68-11.66v-.53A8.2 8.2 0 0 0 22.46 6z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-ring">
+            <img src="rajesh.jpeg" alt="Profile photo" class="profile-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I’m a frontend developer specializing in building responsive and accessible interfaces with clean code and delightful animations.</p>
+            <ul>
+              <li>HTML, CSS (Flexbox & Grid), JavaScript (ES6+)
+            (beginner)
+              </li>
+              <li>Responsive design & accessibility</li>
+              <li>Animations & small interactions</li>
+            </ul>
+          </div>
+          <div class="about-stats">
+            <div class="stat"><strong>3 </strong><span>Projects</span></div>
+            <div class="stat"><strong></strong><span>Dedicated</span></div>
+            <div class="stat"><strong>100%</strong><span>Responsive</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <!-- project card -->
+          <article class="card">
+            <div class="card-thumb"></div>
+            <div class="card-body">
+              <h3>PORTFOLIO </h3>
+              <p> Developed a responsive and interactive <strong>portfolio wedsite</strong>
+              using HTML , CSS and JavaScript to showcase my skills ,projects and resume</p>
+              <div class="card-actions">
+                <a href="#" class="btn btn-sm">View</a>
+                <a href="#" class="btn btn-ghost">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- duplicate of project card -->
+          <article class="card">
+            <div class="card-thumb"></div>
+            <div class="card-body">
+              <h3>VIRTUAL RESUME</h3>
+              <p>A <strong>VIRTUAL RESUME</strong> that showcases personal and professional details</p>
+              <div class="card-actions">
+                <a href="https://siddamsai1.github.io/Saiproject/ " class="btn btn-sm">View</a>
+                <a href="https://github.com/siddamsai1/Saiproject.git" class="btn btn-ghost">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section resume">
+      <div class="container">
+        <h2>Resume</h2>
+        <p>Download the resume to see my experience, education and skills.</p>
+        <a class="btn btn-primary" href="SAI02.pdf" download>Download Resume</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p> RAJESH SIDDAM — Frontend Web Developer</p>
+    </div>
+  </footer>
+
+  <script src="sai.js"></script>
+</body>
+</html>
